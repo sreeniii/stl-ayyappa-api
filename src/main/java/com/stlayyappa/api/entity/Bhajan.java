@@ -17,7 +17,8 @@ public class Bhajan {
     private String name;
 
     @Column(nullable = false)
-    private String language;
+    @Enumerated(EnumType.STRING)
+    private Language language;
 
     @Column(nullable = false)
     private String lyric;

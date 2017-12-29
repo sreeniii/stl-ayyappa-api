@@ -1,5 +1,6 @@
 package com.stlayyappa.api.dto;
 
+import com.stlayyappa.api.entity.Language;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,5 +11,5 @@ public class BhajanDTO {
 
     private String name;
 
-    private String language;
+    private Language language;
 }
