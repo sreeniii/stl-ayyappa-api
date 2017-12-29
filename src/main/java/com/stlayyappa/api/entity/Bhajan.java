@@ -21,5 +21,5 @@ public class Bhajan {
     private Language language;
 
     @Column(nullable = false)
-    private String lyric;
+    private String lyrics;
 }
